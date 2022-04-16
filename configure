@@ -578,7 +578,7 @@ PACKAGE_VERSION='0.8.90'
 PACKAGE_STRING='ctk-icon-naming-utils 0.8.90'
 PACKAGE_BUGREPORT=''
 
-ac_unique_file="icon-name-mapping.pl.in"
+ac_unique_file="ctk-icon-name-mapping.pl.in"
 ac_subst_vars='SHELL
 PATH_SEPARATOR
 PACKAGE_NAME

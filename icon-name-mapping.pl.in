@@ -12,7 +12,7 @@ use strict;
 use XML::Simple;
 use Getopt::Long;
 
-my $PROGRAM = "icon-name-mapping";
+my $PROGRAM = "ctk-icon-name-mapping";
 
 my $condir;
 my $LN_S = ($^O eq 'MSWin32' ? 'cp' : 'ln -s');

@@ -1,5 +1,5 @@
 
-libexec_SCRIPTS = icon-name-mapping
+libexec_SCRIPTS = ctk-icon-name-mapping
 
 %: %.pl.in
 	sed -e "s#\@PERL\@#$(PERL)#g"		\
@@ -17,7 +17,7 @@ dtd_DATA = legacy-icon-mapping.dtd
 pkgdata_DATA = legacy-icon-mapping.xml
 
 EXTRA_DIST =				\
-	icon-name-mapping.pl.in		\
+	ctk-icon-name-mapping.pl.in		\
 	$(pkgconfig_in_files)		\
 	$(dtd_DATA)			\
 	$(pkgdata_DATA)			\

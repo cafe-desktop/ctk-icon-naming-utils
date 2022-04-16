@@ -97,7 +97,7 @@
 
 2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
 
-	* icon-name-mapping.pl.in: Update author info
+	* ctk-icon-name-mapping.pl.in: Update author info
 
 2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
 
@@ -166,7 +166,7 @@
 2007-02-16  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac:
-	* icon-name-mapping.pl.in:
+	* ctk-icon-name-mapping.pl.in:
 	Update the Copyright year for 2007
 
 2007-02-16  Rodney Dawes  <dobey@novell.com>
@@ -175,7 +175,7 @@
 
 2007-02-15  Rodney Dawes  <dobey@novell.com>
 
-	* icon-name-mapping.pl.in: Allow INU_DATA_DIR to override the path
+	* ctk-icon-name-mapping.pl.in: Allow INU_DATA_DIR to override the path
 	where legacy-icon-mapping.xml can be found, to allow for use of
 	the utility in uninstalled situations
 
@@ -348,7 +348,7 @@
 
 2006-02-07  Rodney Dawes  <dobey@novell.com>
 
-	* icon-name-mapping.pl.in (tls_map_icons): Don't use an elsif for the
+	* ctk-icon-name-mapping.pl.in (tls_map_icons): Don't use an elsif for the
 	linking of .icon files, as they need to always be checked for
 
 	* legacy-icon-mapping.xml: Add a link for the volume-knob icon used
@@ -475,7 +475,7 @@
 	* configure.ac: Up version to 0.6.3 for release
 	Update copyright year to include 2006
 
-	* icon-name-mapping.pl.in: Update copyright year to include 2006
+	* ctk-icon-name-mapping.pl.in: Update copyright year to include 2006
 	
 2006-01-06  Rodney Dawes  <dobey@novell.com>
 
@@ -502,7 +502,7 @@
 
 2005-12-11  Rodney Dawes  <dobey@novell.com>
 
-	* icon-name-mapping.pl.in: Define $LN_S to cp if on win32 and ln -s
+	* ctk-icon-name-mapping.pl.in: Define $LN_S to cp if on win32 and ln -s
 	otherwise, so that we can work properly on win32
 	(tls_map_icons): Use the new $LN_S variable to map icons, so that the
 	mapping will work properly on win32 as well
@@ -526,7 +526,7 @@
 	* ctk-icon-naming-utils.pc.in: New pkgconfig file for checking the version
 	and path to the script
 
-	* icon-name-mapping.pl.in: Check that the context was passed in, and
+	* ctk-icon-name-mapping.pl.in: Check that the context was passed in, and
 	print the usage info if not
 	(tls_map_icons): Add a block of code to create symlinks to the .icon
 	files as well as svg and png
