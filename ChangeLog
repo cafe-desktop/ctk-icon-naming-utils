@@ -107,11 +107,11 @@
 
 	Original patch from Damien Carbery <damien.carbery@sun.com>
 
-	* Makefile.am: Update to include icon-naming-utils-uninstalled.pc.in
+	* Makefile.am: Update to include ctk-icon-naming-utils-uninstalled.pc.in
 
-	* configure.ac: Output icon-naming-utils-uninstalled.pc
+	* configure.ac: Output ctk-icon-naming-utils-uninstalled.pc
 
-	* icon-naming-utils-uninstalled.pc.in: Add uninstalled pc.in file
+	* ctk-icon-naming-utils-uninstalled.pc.in: Add uninstalled pc.in file
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=10222
 
@@ -412,7 +412,7 @@
 
 	* configure.ac: Generate the .pc file here
 
-	* icon-naming-utils.pc.in: Add prefix and exec_prefix variables so
+	* ctk-icon-naming-utils.pc.in: Add prefix and exec_prefix variables so
 	that libexecdir can be expanded fully
 
 2006-01-19  Rodney Dawes  <dobey@novell.com>
@@ -515,15 +515,15 @@
 
 2005-12-07  Rodney Dawes  <dobey@novell.com>
 
-	* icon-naming-utils.pc.in: Fix the variable declaration of program_path
+	* ctk-icon-naming-utils.pc.in: Fix the variable declaration of program_path
 	to be defined properly for pkg-config
 
 2005-12-07  Rodney Dawes  <dobey@novell.com>
 
 	* Makefile.am: Install the script to $(libexecdir) instead of $(bindir)
-	Create a pc file from the new icon-naming-utils.pc.in
+	Create a pc file from the new ctk-icon-naming-utils.pc.in
 
-	* icon-naming-utils.pc.in: New pkgconfig file for checking the version
+	* ctk-icon-naming-utils.pc.in: New pkgconfig file for checking the version
 	and path to the script
 
 	* icon-name-mapping.pl.in: Check that the context was passed in, and

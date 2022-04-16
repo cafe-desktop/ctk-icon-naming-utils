@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.52)
 
-AC_INIT([icon-naming-utils], [0.8.90])
+AC_INIT([ctk-icon-naming-utils], [0.8.90])
 AC_CONFIG_SRCDIR(icon-name-mapping.pl.in)
 AC_COPYRIGHT([Copyright 2005-2007 Rodney Dawes])
 
@@ -14,19 +14,19 @@ if test -z "$PERL"; then
    AC_MSG_ERROR([perl not found])
 fi
 if test -z "`$PERL -v | fgrep 'v5.' 2> /dev/null`" -a -z "`$PERL -v | fgrep 'version 5.' 2> /dev/null`"; then
-   AC_MSG_ERROR([perl 5.x required for icon-naming-utils])
+   AC_MSG_ERROR([perl 5.x required for ctk-icon-naming-utils])
 fi
 AC_MSG_CHECKING([for XML::Simple])
 if `$PERL -e "require XML::Simple" 2>/dev/null`; then
    AC_MSG_RESULT([ok])
 else
-   AC_MSG_ERROR([XML::Simple perl module is required for icon-naming-utils])
+   AC_MSG_ERROR([XML::Simple perl module is required for ctk-icon-naming-utils])
 fi
 
 AC_CONFIG_FILES([
 Makefile
-icon-naming-utils.pc
-icon-naming-utils-uninstalled.pc
+ctk-icon-naming-utils.pc
+ctk-icon-naming-utils-uninstalled.pc
 ])
 
 AC_OUTPUT

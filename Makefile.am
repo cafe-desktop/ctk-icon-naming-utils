@@ -7,7 +7,7 @@ libexec_SCRIPTS = icon-name-mapping
 	< $< > $@
 
 pkgconfig_in_files =				\
-	icon-naming-utils.pc.in
+	ctk-icon-naming-utils.pc.in
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = $(pkgconfig_in_files:.pc.in=.pc)
 
@@ -21,14 +21,14 @@ EXTRA_DIST =				\
 	$(pkgconfig_in_files)		\
 	$(dtd_DATA)			\
 	$(pkgdata_DATA)			\
-	icon-naming-utils-uninstalled.pc.in
+	ctk-icon-naming-utils-uninstalled.pc.in
 
 CLEANFILES =				\
 	$(libexec_SCRIPTS)
 
 DISTCLEANFILES =			\
 	$(pkgconfig_DATA)		\
-	icon-naming-utils-uninstalled.pc
+	ctk-icon-naming-utils-uninstalled.pc
 
 MAINTAINERCLEANFILES =			\
 	Makefile.in			\

@@ -34,8 +34,8 @@ POST_UNINSTALL = :
 subdir = .
 DIST_COMMON = README $(am__configure_deps) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in \
-	$(srcdir)/icon-naming-utils-uninstalled.pc.in \
-	$(srcdir)/icon-naming-utils.pc.in $(top_srcdir)/configure \
+	$(srcdir)/ctk-icon-naming-utils-uninstalled.pc.in \
+	$(srcdir)/ctk-icon-naming-utils.pc.in $(top_srcdir)/configure \
 	AUTHORS COPYING ChangeLog INSTALL NEWS install-sh missing
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
@@ -44,8 +44,8 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
 mkinstalldirs = $(install_sh) -d
-CONFIG_CLEAN_FILES = icon-naming-utils.pc \
-	icon-naming-utils-uninstalled.pc
+CONFIG_CLEAN_FILES = ctk-icon-naming-utils.pc \
+	ctk-icon-naming-utils-uninstalled.pc
 am__installdirs = "$(DESTDIR)$(libexecdir)" "$(DESTDIR)$(dtddir)" \
 	"$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(pkgdatadir)"
 libexecSCRIPT_INSTALL = $(INSTALL_SCRIPT)
@@ -147,7 +147,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 libexec_SCRIPTS = icon-name-mapping
 pkgconfig_in_files = \
-	icon-naming-utils.pc.in
+	ctk-icon-naming-utils.pc.in
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = $(pkgconfig_in_files:.pc.in=.pc)
@@ -159,14 +159,14 @@ EXTRA_DIST = \
 	$(pkgconfig_in_files)		\
 	$(dtd_DATA)			\
 	$(pkgdata_DATA)			\
-	icon-naming-utils-uninstalled.pc.in
+	ctk-icon-naming-utils-uninstalled.pc.in
 
 CLEANFILES = \
 	$(libexec_SCRIPTS)
 
 DISTCLEANFILES = \
 	$(pkgconfig_DATA)		\
-	icon-naming-utils-uninstalled.pc
+	ctk-icon-naming-utils-uninstalled.pc
 
 MAINTAINERCLEANFILES = \
 	Makefile.in			\
@@ -214,9 +214,9 @@ $(top_srcdir)/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)
 	cd $(srcdir) && $(AUTOCONF)
 $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	cd $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
-icon-naming-utils.pc: $(top_builddir)/config.status $(srcdir)/icon-naming-utils.pc.in
+ctk-icon-naming-utils.pc: $(top_builddir)/config.status $(srcdir)/ctk-icon-naming-utils.pc.in
 	cd $(top_builddir) && $(SHELL) ./config.status $@
-icon-naming-utils-uninstalled.pc: $(top_builddir)/config.status $(srcdir)/icon-naming-utils-uninstalled.pc.in
+ctk-icon-naming-utils-uninstalled.pc: $(top_builddir)/config.status $(srcdir)/ctk-icon-naming-utils-uninstalled.pc.in
 	cd $(top_builddir) && $(SHELL) ./config.status $@
 install-libexecSCRIPTS: $(libexec_SCRIPTS)
 	@$(NORMAL_INSTALL)
