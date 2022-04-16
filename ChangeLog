@@ -117,7 +117,7 @@
 
 2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
 
-	* legacy-icon-mapping.xml: Link help-about to gtk-about
+	* legacy-icon-mapping.xml: Link help-about to ctk-about
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11168
 
@@ -128,8 +128,8 @@
 	* legacy-icon-mapping.xml:
 	Update document-revert links to use ltr/rtl forms
 	Add links for emblem-{noread,nowrite}
-	Add link for gtk-execute
-	Add links for gtk-spell-check and stock_spellcheck
+	Add link for ctk-execute
+	Add links for ctk-spell-check and stock_spellcheck
 	Add link for stock_print-setup
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11479
@@ -143,17 +143,17 @@
 
 	Patch from Luca Ferretti <elle.uca@libero.it>
 	
-	* legacy-icon-mapping.xml: Update gtk-{indent,unindent} links
+	* legacy-icon-mapping.xml: Update ctk-{indent,unindent} links
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11466
 
 2007-03-23  Rodney Dawes  <dobey@novell.com>
 
-	* legacy-icon-mapping.xml: Add gtk-directory link to folder icon
+	* legacy-icon-mapping.xml: Add ctk-directory link to folder icon
 
 2007-03-23  Rodney Dawes  <dobey@novell.com>
 
-	* legacy-icon-mapping.xml: Link process-stop to gtk-cancel
+	* legacy-icon-mapping.xml: Link process-stop to ctk-cancel
 
 2007-02-19  Rodney Dawes  <dobey@novell.com>
 
@@ -183,7 +183,7 @@
 
 2007-02-15  Rodney Dawes  <dobey@novell.com>
 
-	* legacy-icon-mapping.xml: Add gtk-select-all link to edit-select-all
+	* legacy-icon-mapping.xml: Add ctk-select-all link to edit-select-all
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=9966
 
@@ -362,7 +362,7 @@
 
 2006-02-03  Rodney Dawes  <dobey@novell.com>
 
-	* legacy-icon-mapping.xml: Add gtk-file as link to text-x-preview
+	* legacy-icon-mapping.xml: Add ctk-file as link to text-x-preview
 	Add process-idle for backward compat with gnome-spinner-rest
 
 2006-02-03  Rodney Dawes  <dobey@novell.com>
@@ -417,7 +417,7 @@
 
 2006-01-19  Rodney Dawes  <dobey@novell.com>
 
-	* legacy-icon-mapping.xml: Move gtk-delete and stock_delete to be
+	* legacy-icon-mapping.xml: Move ctk-delete and stock_delete to be
 	links to the edit-delete icon rather than user-trash
 
 2006-01-19  Niko Mirthes  <nmirthes@gmail.com>
@@ -507,7 +507,7 @@
 	(tls_map_icons): Use the new $LN_S variable to map icons, so that the
 	mapping will work properly on win32 as well
 
-	* legacy-icon-mapping.xml: Add a link for gtk-floppy to media-floppy
+	* legacy-icon-mapping.xml: Add a link for ctk-floppy to media-floppy
 
 2005-12-07  Rodney Dawes  <dobey@novell.com>
 
@@ -562,7 +562,7 @@
 
 	* legacy-icon-mapping.xml: KDE media player icons (Niko Mirthes)
 	Add links for KDE and redhat menu categories (Niko Mirthes)
-	Add links for gtk+/gnome media icons (Rodney Dawes)
+	Add links for ctk+/gnome media icons (Rodney Dawes)
 	
 2005-11-18  Rodney Dawes  <dobey@novell.com>
 
@@ -572,8 +572,8 @@
 
 	* legacy-icon-mapping.xml: Few minor KDE updates (Niko Mirthes)
 	Fix the alphabetical ordering of some icon names (Niko Mirthes)
-	Add links for gtk+/gnome find icons (Rodney Dawes)
-	Add links for gtk+/gnome mail message compose icons (Rodney Dawes)
+	Add links for ctk+/gnome find icons (Rodney Dawes)
+	Add links for ctk+/gnome mail message compose icons (Rodney Dawes)
 	Add links for more category icons for gnome menus (Rodney Dawes)
 	Add a link for gnome-dev-battery the battery device (Rodney Dawes)
 	Add a link for stock_printers to the printer device (Rodney Dawes)
@@ -608,7 +608,7 @@
 2005-11-02  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add mapping for save icon
-	Add links for the stock undo/redo icons in GNOME and GTK+
+	Add links for the stock undo/redo icons in GNOME and CTK+
 
 2005-11-01  Rodney Dawes  <dobey@novell.com>
 
@@ -626,7 +626,7 @@
 
 2005-10-26  Rodney Dawes  <dobey@novell.com>
 
-	* legacy-icon-mapping.xml: Add links to gtk+/gnome stock trash icons
+	* legacy-icon-mapping.xml: Add links to ctk+/gnome stock trash icons
 
 2005-10-18  Rodney Dawes  <dobey@novell.com>
 
@@ -635,7 +635,7 @@
 2005-10-18  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add link for the bookmark-new icon
-	Add a link for gtk-help to the help-browser icon
+	Add a link for ctk-help to the help-browser icon
 	Add a link for gnome-joystick to the applications-games icon
 
 2005-10-18  Rodney Dawes  <dobey@novell.com>
@@ -678,7 +678,7 @@
 
 2005-10-12  Rodney Dawes  <dobey@novell.com>
 
-	* legacy-icon-mapping.xml: Update the links for some GTK+ stock icons
+	* legacy-icon-mapping.xml: Update the links for some CTK+ stock icons
 	to have -ltr and -rtl suffixes. Thanks to Luca Ferretti
 	Add some more links for KDE icons. Thanks to Niko Mirthes for the patch
 

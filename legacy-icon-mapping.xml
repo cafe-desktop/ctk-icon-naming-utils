@@ -7,7 +7,7 @@
 	    <link>stock_new-address-book</link>
 	</icon>
 	<icon name="application-exit">
-	    <link>gtk-quit</link>
+	    <link>ctk-quit</link>
 	    <link>exit</link>
 	    <link>xfce-system-exit</link>
 	</icon>
@@ -25,97 +25,97 @@
 	    <link>stock_new-bcard</link>
 	</icon>
 	<icon name="dialog-cancel">
-	    <link>gtk-cancel</link>
+	    <link>ctk-cancel</link>
 	    <link>button_cancel</link>
 	    <link>cancel</link>
 	</icon>
 	<icon name="document-new">
-	    <link>gtk-new</link>
+	    <link>ctk-new</link>
 	    <link>stock_new-text</link>
 	    <link>filenew</link>
 	</icon>
 	<icon name="document-open">
-	    <link>gtk-open</link>
+	    <link>ctk-open</link>
 	    <link>fileopen</link>
 	</icon>
 	<icon name="document-page-setup">
 	    <link>stock_print-setup</link>
 	</icon>
 	<icon name="document-print">
-	    <link>gtk-print</link>
+	    <link>ctk-print</link>
 	    <link>stock_print</link>
 	    <link>fileprint</link>
 	</icon>
 	<icon name="document-print-preview">
-	    <link>gtk-print-preview</link>
+	    <link>ctk-print-preview</link>
 	    <link>stock_print-preview</link>
 	    <link>filequickprint</link>
 	</icon>
 	<icon name="document-properties">
-	    <link>gtk-properties</link>
+	    <link>ctk-properties</link>
 	    <link>stock_properties</link>
 	    <link>stock_file-properites</link>
 	</icon>
 	<icon name="document-revert">
-	    <link>gtk-revert-to-saved-ltr</link>
-	    <link>gtk-revert-to-saved-rtl</link>
+	    <link>ctk-revert-to-saved-ltr</link>
+	    <link>ctk-revert-to-saved-rtl</link>
 	    <link>revert</link>
 	</icon>
 	<icon name="document-save">
-	    <link>gtk-save</link>
+	    <link>ctk-save</link>
 	    <link>stock_save</link>
 	    <link>filesave</link>
 	</icon>
 	<icon name="document-save-as">
-	    <link>gtk-save-as</link>
+	    <link>ctk-save-as</link>
 	    <link>stock_save-as</link>
 	    <link>filesaveas</link>
 	</icon>
 	<icon name="edit-clear">
-	    <link>gtk-clear</link>
+	    <link>ctk-clear</link>
 	    <link>editclear</link>
 	</icon>
 	<icon name="edit-copy">
-	    <link>gtk-copy</link>
+	    <link>ctk-copy</link>
 	    <link>stock_copy</link>
 	    <link>editcopy</link>
 	</icon>
 	<icon name="edit-cut">
-	    <link>gtk-cut</link>
+	    <link>ctk-cut</link>
 	    <link>stock_cut</link>
 	    <link>editcut</link>
 	</icon>
 	<icon name="edit-delete">
-	    <link>gtk-delete</link>
+	    <link>ctk-delete</link>
 	    <link>stock_delete</link>
 	    <link>editdelete</link>
 	</icon>
 	<icon name="edit-find">
-	    <link>gtk-find</link>
+	    <link>ctk-find</link>
 	    <link>stock_search</link>
 	    <link>filefind</link>
 	    <link>find</link>
 	</icon>
 	<icon name="edit-find-replace">
-	    <link>gtk-find-and-replace</link>
+	    <link>ctk-find-and-replace</link>
 	    <link>stock_search-and-replace</link>
 	</icon>
 	<icon name="edit-paste">
-	    <link>gtk-paste</link>
+	    <link>ctk-paste</link>
 	    <link>stock_paste</link>
 	    <link>editpaste</link>
 	</icon>
 	<icon name="edit-redo">
-	    <link>gtk-redo-ltr</link>
+	    <link>ctk-redo-ltr</link>
 	    <link>stock_redo</link>
 	    <link>redo</link>
 	</icon>
 	<icon name="edit-select-all">
-	    <link>gtk-select-all</link>
+	    <link>ctk-select-all</link>
 	    <link>stock_select-all</link>
 	</icon>
 	<icon name="edit-undo">
-	    <link>gtk-undo-ltr</link>
+	    <link>ctk-undo-ltr</link>
 	    <link>stock_undo</link>
 	    <link>undo</link>
 	</icon>
@@ -124,128 +124,128 @@
 	    <link>folder_new</link>
 	</icon>
 	<icon name="format-indent-less">
-	    <link>gtk-indent-rtl</link>
-	    <link>gtk-unindent-ltr</link>
+	    <link>ctk-indent-rtl</link>
+	    <link>ctk-unindent-ltr</link>
 	    <link>stock_text_unindent</link>
 	    <link>gnome-stock-text-unindent</link>
 	</icon>
 	<icon name="format-indent-more">
-	    <link>gtk-indent-ltr</link>
-	    <link>gtk-unindent-rtl</link>
+	    <link>ctk-indent-ltr</link>
+	    <link>ctk-unindent-rtl</link>
 	    <link>stock_text_indent</link>
 	    <link>gnome-stock-text-indent</link>
 	</icon>
 	<icon name="format-justify-center">
-	    <link>gtk-justify-center</link>
+	    <link>ctk-justify-center</link>
 	    <link>stock_text_center</link>
 	    <link>centrejust</link>
 	</icon>
 	<icon name="format-justify-fill">
-	    <link>gtk-justify-fill</link>
+	    <link>ctk-justify-fill</link>
 	    <link>stock_text_justify</link>
 	</icon>
 	<icon name="format-justify-left">
-	    <link>gtk-justify-left</link>
+	    <link>ctk-justify-left</link>
 	    <link>stock_text_left</link>
 	    <link>leftjust</link>
 	</icon>
 	<icon name="format-justify-right">
-	    <link>gtk-justify-right</link>
+	    <link>ctk-justify-right</link>
 	    <link>stock_text_right</link>
 	    <link>rightjust</link>
 	</icon>
 	<icon name="format-text-bold">
-	    <link>gtk-bold</link>
+	    <link>ctk-bold</link>
 	    <link>stock_text_bold</link>
 	    <link>text_bold</link>
 	</icon>
 	<icon name="format-text-italic">
-	    <link>gtk-italic</link>
+	    <link>ctk-italic</link>
 	    <link>stock_text_italic</link>
 	    <link>text_italic</link>
 	</icon>
 	<icon name="format-text-strikethrough">
-	    <link>gtk-strikethrough</link>
+	    <link>ctk-strikethrough</link>
 	    <link>stock_text-strikethrough</link>
 	    <link>text_strike</link>
 	</icon>
 	<icon name="format-text-underline">
-	    <link>gtk-underline</link>
+	    <link>ctk-underline</link>
 	    <link>stock_text_underlined</link>
 	    <link>text_under</link>
 	</icon>
 	<icon name="go-bottom">
-	    <link>gtk-goto-bottom</link>
+	    <link>ctk-goto-bottom</link>
 	    <link>stock_bottom</link>
 	    <link>bottom</link>
 	</icon>
 	<icon name="go-down">
-	    <link>gtk-go-down</link>
+	    <link>ctk-go-down</link>
 	    <link>stock_down</link>
 	    <link>down</link>
 	</icon>
 	<icon name="go-first">
-	    <link>gtk-goto-first-ltr</link>
-	    <link>gtk-goto-last-rtl</link>
+	    <link>ctk-goto-first-ltr</link>
+	    <link>ctk-goto-last-rtl</link>
 	    <link>stock_first</link>
 	    <link>start</link>
 	</icon>
 	<icon name="go-home">
-	    <link>gtk-home</link>
+	    <link>ctk-home</link>
 	    <link>stock_home</link>
 	    <link>gohome</link>
 	    <link>kfm_home</link>
 	    <link>redhat-home</link>
 	</icon>
 	<icon name="go-jump">
-	    <link>gtk-jump-to-ltr</link>
-	    <link>gtk-jump-to-rtl</link>
+	    <link>ctk-jump-to-ltr</link>
+	    <link>ctk-jump-to-rtl</link>
 	</icon>
 	<icon name="go-last">
-	    <link>gtk-goto-last-ltr</link>
-	    <link>gtk-goto-first-rtl</link>
+	    <link>ctk-goto-last-ltr</link>
+	    <link>ctk-goto-first-rtl</link>
 	    <link>stock_last</link>
 	    <link>finish</link>
 	</icon>
 	<icon name="go-next">
-	    <link>gtk-go-forward-ltr</link>
-	    <link>gtk-go-back-rtl</link>
+	    <link>ctk-go-forward-ltr</link>
+	    <link>ctk-go-back-rtl</link>
 	    <link>stock_right</link>
 	    <link>forward</link>
 	    <link>next</link>
 	</icon>
 	<icon name="go-previous">
-	    <link>gtk-go-back-ltr</link>
-	    <link>gtk-go-forward-rtl</link>
+	    <link>ctk-go-back-ltr</link>
+	    <link>ctk-go-forward-rtl</link>
 	    <link>stock_left</link>
 	    <link>back</link>
 	    <link>previous</link>
 	</icon>
 	<icon name="go-top">
-	    <link>gtk-goto-top</link>
+	    <link>ctk-goto-top</link>
 	    <link>stock_top</link>
 	    <link>top</link>
 	</icon>
 	<icon name="go-up">
-	    <link>gtk-go-up</link>
+	    <link>ctk-go-up</link>
 	    <link>stock_up</link>
 	    <link>up</link>
 	</icon>
 	<icon name="help-about">
-	    <link>gtk-about</link>
+	    <link>ctk-about</link>
 	    <link>stock_about</link>
 	</icon>
 	<icon name="help-contents">
-	    <link>gtk-help</link>
+	    <link>ctk-help</link>
 	    <link>stock_help</link>
 	    <link>help</link>
 	</icon>
 	<icon name="list-add">
-	    <link>gtk-add</link>
+	    <link>ctk-add</link>
 	    <link>add</link>
 	</icon>
 	<icon name="list-remove">
-	    <link>gtk-remove</link>
+	    <link>ctk-remove</link>
 	    <link>remove</link>
 	</icon>
 	<icon name="mail-forward">
@@ -286,52 +286,52 @@
 	    <link>player_eject</link>
 	</icon>
 	<icon name="media-playback-pause">
-	    <link>gtk-media-pause</link>
+	    <link>ctk-media-pause</link>
 	    <link>stock_media-pause</link>
 	    <link>player_pause</link>
 	</icon>
 	<icon name="media-playback-start">
-	    <link>gtk-media-play-ltr</link>
+	    <link>ctk-media-play-ltr</link>
 	    <link>stock_media-play</link>
 	    <link>player_play</link>
 	</icon>
 	<icon name="media-playback-stop">
-	    <link>gtk-media-stop</link>
+	    <link>ctk-media-stop</link>
 	    <link>stock_media-stop</link>
 	    <link>player_stop</link>
 	</icon>
 	<icon name="media-record">
-	    <link>gtk-media-record</link>
+	    <link>ctk-media-record</link>
 	    <link>stock_media-rec</link>
 	    <link>player_record</link>
 	</icon>
 	<icon name="media-seek-backward">
-	    <link>gtk-media-rewind-ltr</link>
-	    <link>gtk-media-forward-rtl</link>
+	    <link>ctk-media-rewind-ltr</link>
+	    <link>ctk-media-forward-rtl</link>
 	    <link>stock_media-rew</link>
 	    <link>player_rew</link>
 	</icon>
 	<icon name="media-seek-forward">
-	    <link>gtk-media-forward-ltr</link>
-	    <link>gtk-media-rewind-rtl</link>
+	    <link>ctk-media-forward-ltr</link>
+	    <link>ctk-media-rewind-rtl</link>
 	    <link>stock_media-fwd</link>
 	    <link>player_fwd</link>
 	</icon>
 	<icon name="media-skip-backward">
-	    <link>gtk-media-previous-ltr</link>
-	    <link>gtk-media-next-rtl</link>
+	    <link>ctk-media-previous-ltr</link>
+	    <link>ctk-media-next-rtl</link>
 	    <link>stock_media-prev</link>
 	    <link>player_start</link>
 	</icon>
 	<icon name="media-skip-forward">
-	    <link>gtk-media-next-ltr</link>
-	    <link>gtk-media-previous-rtl</link>
+	    <link>ctk-media-next-ltr</link>
+	    <link>ctk-media-previous-rtl</link>
 	    <link>stock_media-next</link>
 	    <link>player_end</link>
 	</icon>
 	<icon name="process-stop">
-	    <link>gtk-cancel</link>
-	    <link>gtk-stop</link>
+	    <link>ctk-cancel</link>
+	    <link>ctk-stop</link>
 	    <link>stock_stop</link>
 	    <link>stop</link>
 	</icon>
@@ -346,7 +346,7 @@
 	</icon>
 	<icon name="system-run">
 	    <link>gnome-run</link>
-	    <link>gtk-execute</link>
+	    <link>ctk-execute</link>
 	</icon>
 	<icon name="system-search">
 	    <link>gnome-searchtool</link>
@@ -361,16 +361,16 @@
 	    <link>tab_new</link>
 	</icon>
 	<icon name="tools-check-spelling">
-	    <link>gtk-spell-check</link>
+	    <link>ctk-spell-check</link>
 	    <link>stock_spellcheck</link>
 	</icon>
 	<icon name="view-fullscreen">
-	    <link>gtk-fullscreen</link>
+	    <link>ctk-fullscreen</link>
 	    <link>stock_fullscreen</link>
 	    <link>window_fullscreen</link>
 	</icon>
 	<icon name="view-refresh">
-	    <link>gtk-refresh</link>
+	    <link>ctk-refresh</link>
 	    <link>stock_refresh</link>
 	    <link>reload</link>
 	    <link>reload_all_tabs</link>
@@ -378,18 +378,18 @@
 	    <link>reload3</link>
 	</icon>
 	<icon name="view-restore">
-	    <link>gtk-leave-fullscreen</link>
+	    <link>ctk-leave-fullscreen</link>
 	    <link>stock_leave-fullscreen</link>
 	    <link>window_nofullscreen</link>
 	</icon>
 	<icon name="view-sort-ascending">
-	    <link>gtk-sort-ascending</link>
+	    <link>ctk-sort-ascending</link>
 	</icon>
 	<icon name="view-sort-descending">
-	    <link>gtk-sort-descending</link>
+	    <link>ctk-sort-descending</link>
 	</icon>
 	<icon name="window-close">
-	    <link>gtk-close</link>
+	    <link>ctk-close</link>
 	    <link>stock_close</link>
 	</icon>
 	<icon name="window-new">
@@ -398,22 +398,22 @@
 	</icon>
 	<icon name="zoom-fit-best">
 	    <link>zoom-best-fit</link>
-	    <link>gtk-zoom-fit</link>
+	    <link>ctk-zoom-fit</link>
 	    <link>stock_zoom-page</link>
 	    <link>viewmagfit</link>
 	</icon>
         <icon name="zoom-in">
-            <link>gtk-zoom-in</link>
+            <link>ctk-zoom-in</link>
 	    <link>stock_zoom-in</link>
 	    <link>viewmag+</link>
         </icon>
         <icon name="zoom-original">
-            <link>gtk-zoom-100</link>
+            <link>ctk-zoom-100</link>
 	    <link>stock_zoom-1</link>
 	    <link>viewmag1</link>
         </icon>
         <icon name="zoom-out">
-            <link>gtk-zoom-out</link>
+            <link>ctk-zoom-out</link>
 	    <link>stock_zoom-out</link>
 	    <link>viewmag-</link>
         </icon>
@@ -610,7 +610,7 @@
 	<icon name="preferences-desktop">
 	    <link>gnome-control-center</link>
 	    <link>gnome-settings</link>
-	    <link>gtk-preferences</link>
+	    <link>ctk-preferences</link>
 	    <link>redhat-preferences</link>
 	    <link>kcontrol</link>
 	    <link>xfce4-settings</link>
@@ -645,7 +645,7 @@
 	    <link>system</link>
 	</icon>
 	<icon name="drive-harddisk">
-	    <link>gtk-harddisk</link>
+	    <link>ctk-harddisk</link>
 	    <link>gnome-dev-harddisk</link>
 	    <link>gnome-dev-harddisk-usb</link>
 	    <link>gnome-dev-harddisk-1394</link>
@@ -690,7 +690,7 @@
 	</icon>
 	<icon name="media-floppy">
 	    <link>gnome-dev-floppy</link>
-	    <link>gtk-floppy</link>
+	    <link>ctk-floppy</link>
 	    <link>system-floppy</link>
 	    <link>3floppy_unmount</link>
 	</icon>
@@ -699,7 +699,7 @@
 	</icon>
 	<icon name="media-optical">
 	    <link>media-cdrom</link>
-	    <link>gtk-cdrom</link>
+	    <link>ctk-cdrom</link>
 	    <link>gnome-dev-cdrom-audio</link>
 	    <link>gnome-dev-disc-cdr</link>
 	    <link>gnome-dev-disc-cdrw</link>
@@ -886,7 +886,7 @@
 	</icon>
 	<icon name="text-x-preview">
 	    <link>gnome-fs-regular</link>
-	    <link>gtk-file</link>
+	    <link>ctk-file</link>
 	</icon>
 	<icon name="text-x-generic-template">
 	    <link>template_source</link>
@@ -996,7 +996,7 @@
     <context dir="places">
 	<icon name="folder">
 	    <link>gnome-fs-directory</link>
-	    <link>gtk-directory</link>
+	    <link>ctk-directory</link>
 	    <link>stock_folder</link>
 	    <link>inode-directory</link>
 	</icon>
@@ -1044,7 +1044,7 @@
 	<icon name="network-workgroup">
 	    <link>gnome-fs-network</link>
 	    <link>gnome-mime-x-directory-smb-workgroup</link>
-	    <link>gtk-network</link>
+	    <link>ctk-network</link>
 	    <link>network_local</link>
 	</icon>
 	<icon name="start-here">
@@ -1090,26 +1090,26 @@
 	    <link>stock_volume-mute</link>
 	</icon>
 	<icon name="dialog-error">
-	    <link>gtk-dialog-error</link>
+	    <link>ctk-dialog-error</link>
 	    <link>stock_dialog-error</link>
 	    <link>error</link>
 	    <link>messagebox_critical</link>
 	</icon>
 	<icon name="dialog-information">
-	    <link>gtk-dialog-info</link>
+	    <link>ctk-dialog-info</link>
 	    <link>stock_dialog-info</link>
 	    <link>info</link>
 	    <link>messagebox_info</link>
 	</icon>
 	<icon name="dialog-password">
-	    <link>gtk-dialog-authentication</link>
+	    <link>ctk-dialog-authentication</link>
 	</icon>
 	<icon name="dialog-question">
-	    <link>gtk-dialog-question</link>
+	    <link>ctk-dialog-question</link>
 	    <link>stock_dialog-question</link>
 	</icon>
 	<icon name="dialog-warning">
-	    <link>gtk-dialog-warning</link>
+	    <link>ctk-dialog-warning</link>
 	    <link>stock_dialog-warning</link>
 	    <link>messagebox_warning</link>
 	    <link>important</link>
@@ -1128,7 +1128,7 @@
 	    <link>gnome-fs-loading-icon</link>
 	</icon>
 	<icon name="image-missing">
-	    <link>gtk-missing-image</link>
+	    <link>ctk-missing-image</link>
 	</icon>
 	<icon name="mail-attachment">
 	    <link>stock_attach</link>
