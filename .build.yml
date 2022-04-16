@@ -8,7 +8,6 @@ requires:
 
 build_scripts:
   - mkdir html-report
-  - NOCONFIGURE=1 ./autogen.sh
   - ./configure
   - make
   - make check
