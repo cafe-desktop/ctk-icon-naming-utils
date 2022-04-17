@@ -11,7 +11,7 @@ pkgconfig_in_files =				\
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = $(pkgconfig_in_files:.pc.in=.pc)
 
-dtddir = $(datadir)/dtds
+dtddir = $(pkgdatadir)
 dtd_DATA = legacy-icon-mapping.dtd
 
 pkgdata_DATA = legacy-icon-mapping.xml
