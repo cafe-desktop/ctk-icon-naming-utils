@@ -1136,6 +1136,7 @@
 	<icon name="folder-open">
 	    <link>stock_open</link>
 	    <link>folder_open</link>
+	    <link>ctk-directory</link>
 	</icon>
 	<icon name="folder-visiting">
 	    <link>gnome-fs-directory-visiting</link>
