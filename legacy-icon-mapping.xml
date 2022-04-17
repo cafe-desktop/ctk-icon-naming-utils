@@ -353,6 +353,7 @@
 	</icon>
 	<icon name="system-log-out">
 	    <link>gnome-logout</link>
+	    <link>gnome-session-logout</link>
 	    <link>exit</link>
 	</icon>
 	<icon name="system-run">
