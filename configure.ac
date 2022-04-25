@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.52)
 
-AC_INIT([ctk-icon-naming-utils], [0.8.90])
+AC_INIT([ctk-icon-naming-utils], [1.25.0])
 AC_CONFIG_SRCDIR(ctk-icon-name-mapping.pl.in)
 AC_COPYRIGHT([Copyright 2005-2007 Rodney Dawes])
 
