@@ -5,14 +5,12 @@ requires:
   debian:
     # Useful URL: https://github.com/cafe-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-cafe-team/cafe-icon-theme
+    - clang
+    - clang-tools
+    - expect #required for unbuffer
     - gawk
     - make
     - libxml-simple-perl
 
 build_scripts:
-  - mkdir html-report
-  - ./configure
-  - make
-  - make check
-  - make install
-  - make distcheck
+  - ./make-scanbuild
