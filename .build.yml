@@ -9,6 +9,7 @@ requires:
     - clang-tools
     - expect #required for unbuffer
     - gawk
+    - git
     - make
     - libxml-simple-perl
 
