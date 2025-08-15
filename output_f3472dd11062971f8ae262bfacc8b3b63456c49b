@@ -1,0 +1,24 @@
+scan-build: Using '/usr/lib/llvm-19/bin/clang' for static analysis
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for perl... /usr/bin/perl
+checking for XML::Simple... ok
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating ctk-icon-naming-utils.pc
+config.status: creating ctk-icon-naming-utils-uninstalled.pc
+scan-build: Analysis run complete.
+scan-build: Removing directory '/tmp/scan-build-2025-08-15-111101-5481-1' because it contains no reports.
+scan-build: No bugs found.
+scan-build: Using '/usr/lib/llvm-19/bin/clang' for static analysis
+sed -e "s#\@PERL\@#/usr/bin/perl#g"		\
+    -e "s#\@DATADIR\@#/usr/share/ctk-icon-naming-utils#g"	\
+< ctk-icon-name-mapping.pl.in > ctk-icon-name-mapping
+scan-build: Analysis run complete.
+scan-build: Removing directory '/rootdir/html-report/2025-08-15-111102-5924-1' because it contains no reports.
+scan-build: No bugs found.
+make: Nothing to be done for 'check'.
