@@ -16,4 +16,4 @@ requires:
     - libxml-simple-perl
 
 build_scripts:
-  - ./make-scanbuild
+  - ./build-debs https://github.com/cafe-desktop/debian-packages devel ctk-icon-naming-utils
