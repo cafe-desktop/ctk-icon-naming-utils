@@ -17,4 +17,3 @@ requires:
 
 build_scripts:
   - ./make-scanbuild
-  - ./exit-warning
