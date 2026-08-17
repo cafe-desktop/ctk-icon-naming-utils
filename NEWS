@@ -1,0 +1,9 @@
+2022-04-25  Pablo Barciela  <scow@riseup.net>
+
+	* initial commit: icon-naming-utils 0.8.90 fork
+	* ci: enable Github Actions
+	* rename gtk -> ctk
+	* rename icon-naming-utils -> ctk-icon-naming-utils
+	* rename icon-name-mapping -> ctk-icon-name-mapping
+	* rename files icon-nam... > ctk-icon-nam...
+	* Apply debian patches taken from [icon-naming-utils_0.8.90-5.debian.tar.xz]
