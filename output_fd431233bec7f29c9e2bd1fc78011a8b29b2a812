@@ -1,0 +1,36 @@
+Regenerating the build system for ctk-icon-naming-utils...
+configure.ac:8: installing './install-sh'
+configure.ac:8: installing './missing'
+Skipping configure process.
+scan-build: Using '/usr/lib/llvm-21/bin/clang' for static analysis
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for perl... /usr/bin/perl
+checking for XML::Simple... ok
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating ctk-icon-naming-utils.pc
+config.status: creating ctk-icon-naming-utils-uninstalled.pc
+scan-build: Analysis run complete.
+scan-build: Removing directory '/tmp/scan-build-2026-08-19-153653-5750-1' because it contains no reports.
+scan-build: No bugs found.
+scan-build: Using '/usr/lib/llvm-21/bin/clang' for static analysis
+sed -e "s#\@PERL\@#/usr/bin/perl#g"		\
+    -e "s#\@DATADIR\@#/usr/share/ctk-icon-naming-utils#g"	\
+< ctk-icon-name-mapping.pl.in > ctk-icon-name-mapping
+scan-build: Analysis run complete.
+scan-build: Removing directory '/rootdir/html-report/2026-08-19-153653-6145-1' because it contains no reports.
+scan-build: No bugs found.
+make: Nothing to be done for 'check'.
