@@ -16,4 +16,5 @@ requires:
     - libxml-simple-perl
 
 build_scripts:
-  - ./build-debs https://github.com/cafe-desktop/debian-packages devel ctk-icon-naming-utils
+  - ./debrepo-install
+  - ./testrepo
